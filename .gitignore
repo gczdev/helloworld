@@ -1,11 +1,15 @@
 .gitignore# Build outputs
 bin/
 obj/
-
+out/
 # User-specific files
 *.user
 *.suo
 *.vscode/
+*.exe
+*.dll
+*.pdb
+*.log
 
 # Logs
 *.log
@@ -14,6 +18,15 @@ obj/
 .DS_Store
 Thumbs.db
 
+# User-specific files
+.vs/
+.vscode/
+*.user
+*.suo
+
 # NuGet packages
 *.nupkg
 packages/
+
+# Dependency directories
+node_modules/
